@@ -8,7 +8,7 @@ connectDB();
 
 // Start server
 const server = app.listen(config.PORT, () => {
-  logger.info(`Server running on port ${config.PORT}`);
+  console.log(`Server running on port ${config.PORT}`);
 });
 
 module.exports = server;
